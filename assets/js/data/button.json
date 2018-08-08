@@ -1,0 +1,190 @@
+[
+  {
+    "title": "File Button",
+    "fields": {
+      "id": {
+        "label": "ID / Nombre",
+        "type": "input",
+        "value": "filebutton"
+      },
+      "label": {
+        "label": "Texto de etiqueta",
+        "type": "input",
+        "value": "Botón de archivo"
+      }
+    }
+  },
+  {
+    "title": "Single Button",
+    "fields": {
+      "id": {
+        "label": "ID / Nombre",
+        "type": "input",
+        "value": "Botón simple"
+      },
+      "label": {
+        "label": "Texto de etiqueta",
+        "type": "input",
+        "value": "Botón simple"
+      },
+      "buttonlabel": {
+        "label": "Texto botón",
+        "type": "input",
+        "value": "Botón"
+      },
+      "buttontype": {
+        "label": "Tipo de botón",
+        "type": "select",
+        "value": [
+          {
+            "value": "btn-default",
+            "label": "Por defecto",
+            "selected": false
+          },
+          {
+            "value": "btn-primary",
+            "label": "Primario",
+            "selected": true
+          },
+          {
+            "value": "btn-info",
+            "label": "Info",
+            "selected": false
+          },
+          {
+            "value": "btn-success",
+            "label": "Éxito",
+            "selected": false
+          },
+          {
+            "value": "btn-warning",
+            "label": "Aviso",
+            "selected": false
+          },
+          {
+            "value": "btn-danger",
+            "label": "Peligro",
+            "selected": false
+          },
+          {
+            "value": "btn-inverse",
+            "label": "Invertir",
+            "selected": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Double Button",
+    "fields": {
+      "id": {
+        "label": "Botón 1 ID / Nombre",
+        "type": "input",
+        "value": "Botón 1 ID"
+      },
+      "label": {
+        "label": "Texto de etiqueta",
+        "type": "input",
+        "value": "Dos botones"
+      },
+      "button1label": {
+        "label": "Texto botón",
+        "type": "input",
+        "value": "Botón verde"
+      },
+      "button1type": {
+        "label": "Tipo botón",
+        "type": "select",
+        "value": [
+          {
+            "value": "btn-default",
+            "label": "Por defecto",
+            "selected": false
+          },
+          {
+            "value": "btn-primary",
+            "label": "Primario",
+            "selected": false
+          },
+          {
+            "value": "btn-info",
+            "label": "Info",
+            "selected": false
+          },
+          {
+            "value": "btn-success",
+            "label": "Éxito",
+            "selected": true
+          },
+          {
+            "value": "btn-warning",
+            "label": "Aviso",
+            "selected": false
+          },
+          {
+            "value": "btn-danger",
+            "label": "Peligro",
+            "selected": false
+          },
+          {
+            "value": "btn-inverse",
+            "label": "Invertir",
+            "selected": false
+          }
+        ]
+      },
+      "id2": {
+        "label": "Botón 2 ID / Nombre",
+        "type": "input",
+        "value": "Botón 2 ID"
+      },
+      "button2label": {
+        "label": "Texto botón",
+        "type": "input",
+        "value": "Botón rojo"
+      },
+      "button2type": {
+        "label": "Tipo botón",
+        "type": "select",
+        "value": [
+          {
+            "value": "btn-default",
+            "label": "Por defecto",
+            "selected": false
+          },
+          {
+            "value": "btn-primary",
+            "label": "Primario",
+            "selected": false
+          },
+          {
+            "value": "btn-info",
+            "label": "Info",
+            "selected": false
+          },
+          {
+            "value": "btn-success",
+            "label": "Éxito",
+            "selected": false
+          },
+          {
+            "value": "btn-warning",
+            "label": "Aviso",
+            "selected": false
+          },
+          {
+            "value": "btn-danger",
+            "label": "Peligro",
+            "selected": true
+          },
+          {
+            "value": "btn-inverse",
+            "label": "Invertir",
+            "selected": false
+          }
+        ]
+      }
+    }
+  }
+]

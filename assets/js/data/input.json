@@ -1,0 +1,274 @@
+[
+  {
+    "fields": {
+      "id": {
+        "type": "input",
+        "label": "ID / Nombre",
+        "value": "textinput"
+      },
+      "inputsize": {
+        "type": "select",
+        "label": "Tamaño",
+        "value": [
+          {
+            "label": "Pequeño",
+            "value": "input-sm",
+            "selected": false
+          },
+          {
+            "label": "Mediano",
+            "value": "input-md",
+            "selected": true
+          },
+          {
+            "label": "Grande",
+            "value": "input-lg",
+            "selected": false
+          }
+        ]
+      },
+      "inputwidth": {
+        "type": "select",
+        "label": "Ancho",
+        "value": [
+          {
+            "label": "Corto",
+            "value": "col-sm-4",
+            "selected": false
+          },
+          {
+            "label": "Mediano",
+            "value": "col-sm-6",
+            "selected": true
+          },
+          {
+            "label": "Grande",
+            "value": "col-sm-8",
+            "selected": false
+          }
+        ]
+      },
+      "label": {
+        "type": "input",
+        "label": "Texto de etiqueta",
+        "value": "Texto de entrada"
+      },
+      "helptext": {
+        "type": "input",
+        "label": "Texto de ayuda",
+        "value": ""
+      },
+      "placeholder": {
+        "type": "input",
+        "label": "Placeholder",
+        "value": "placeholder"
+      },
+      "required": {
+        "type": "checkbox",
+        "label": "Requerido",
+        "value": false
+      }
+    },
+    "title": "Text Input"
+  },
+  {
+    "fields": {
+      "id": {
+        "type": "input",
+        "label": "ID / Nombre",
+        "value": ""
+      },
+      "prepend": {
+        "type": "input",
+        "label": "Antepuesto",
+        "value": "texto antepuesto"
+      },
+      "inputsize": {
+        "type": "select",
+        "label": "Tamaño",
+        "value": [
+          {
+            "label": " Pequeño",
+            "value": "input-sm",
+            "selected": false
+          },
+          {
+            "label": "Mediano",
+            "value": "input-md",
+            "selected": true
+          },
+          {
+            "label": "Grande",
+            "value": "input-lg",
+            "selected": false
+          }
+        ]
+      },
+      "inputwidth": {
+        "type": "select",
+        "label": "Ancho",
+        "value": [
+          {
+            "label": "Pequeño",
+            "value": "col-sm-4",
+            "selected": false
+          },
+          {
+            "label": "Mediano",
+            "value": "col-sm-6",
+            "selected": true
+          },
+          {
+            "label": "Grande",
+            "value": "col-sm-8",
+            "selected": false
+          }
+        ]
+      },
+      "label": {
+        "type": "input",
+        "label": "Texto de etiqueta",
+        "value": "Texto de entrada"
+      },
+      "helptext": {
+        "type": "input",
+        "label": "Texto de ayuda",
+        "value": "ayuda"
+      },
+      "placeholder": {
+        "type": "input",
+        "label": "Placeholder",
+        "value": "placeholder"
+      },
+      "required": {
+        "type": "checkbox",
+        "label": "Requerido",
+        "value": false
+      }
+    },
+    "title": "Prepended Text"
+  },
+  {
+    "fields": {
+      "id": {
+        "type": "input",
+        "label": "ID / Nombre",
+        "value": ""
+      },
+      "inputsize": {
+        "type": "select",
+        "label": "Tamaño",
+        "value": [
+          {
+            "label": " Pequeño",
+            "value": "input-sm",
+            "selected": false
+          },
+          {
+            "label": "Mediano",
+            "value": "input-md",
+            "selected": true
+          },
+          {
+            "label": "Grande",
+            "value": "input-lg",
+            "selected": false
+          }
+        ]
+      },
+      "inputwidth": {
+        "type": "select",
+        "label": "Ancho",
+        "value": [
+          {
+            "label": "Pequeño",
+            "value": "col-sm-4",
+            "selected": false
+          },
+          {
+            "label": "Mediano",
+            "value": "col-sm-6",
+            "selected": true
+          },
+          {
+            "label": "Grande",
+            "value": "col-sm-8",
+            "selected": false
+          }
+        ]
+      },
+      "label": {
+        "type": "input",
+        "label": "Texto de etiqueta",
+        "value": "Casilla verificación antepuesta"
+      },
+      "helptext": {
+        "type": "input",
+        "label": "Texto de ayuda",
+        "value": "ayuda"
+      },
+      "placeholder": {
+        "type": "input",
+        "label": "Placeholder",
+        "value": "placeholder"
+      },
+      "checked": {
+        "type": "checkbox",
+        "label": "Checked",
+        "value": false
+      },
+      "required": {
+        "type": "checkbox",
+        "label": "Requerido",
+        "value": false
+      }
+    },
+    "title": "Prepended Checkbox"
+  },
+  {
+    "fields": {
+      "id": {
+        "type": "input",
+        "label": "ID / Nombre",
+        "value": "textarea"
+      },
+      "inputwidth": {
+        "type": "select",
+        "label": "Ancho",
+        "value": [
+          {
+            "label": "Pequeño",
+            "value": "col-sm-4",
+            "selected": false
+          },
+          {
+            "label": "Mediano",
+            "value": "col-sm-6",
+            "selected": true
+          },
+          {
+            "label": "Grande",
+            "value": "col-sm-8",
+            "selected": false
+          }
+        ]
+      },
+      "label": {
+        "type": "input",
+        "label": "Texto de etiqueta",
+        "value": "Área de texto"
+      },
+      "helptext": {
+        "type": "input",
+        "label": "Texto de ayuda",
+        "value": "ayuda"
+      },
+      "textarea": {
+        "type": "textarea",
+        "label": "Texto destacado",
+        "value": "Texto por defecto"
+      }
+    },
+    "title": "Text area"
+  }
+]

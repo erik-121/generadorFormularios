@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Multiple Radios",
+    "fields": {
+      "name": {
+        "label": "Nombre grupo",
+        "type": "input",
+        "value": "opciones"
+      },
+      "label": {
+        "label": "Etiqueta de texto",
+        "type": "input",
+        "value": "Botón de opción"
+      },
+      "radios": {
+        "label": "Opciones",
+        "type": "textarea-split",
+        "value": [
+          "Primera opción",
+          "Segunda opción"
+        ]
+      },
+		"radiosValues" :{
+			"label" : "Radios valor opciones",
+			"type" : "textarea-split",
+			"value" :[
+				"1",
+				"2"
+			] 
+		}
+    }
+  },
+  {
+    "title": "Multiple Radios Inline",
+    "fields": {
+      "name": {
+        "label": "Nombre grupo",
+        "type": "input",
+        "value": "opciones"
+      },
+      "label": {
+        "label": "Etiqueta de texto",
+        "type": "input",
+        "value": "Botón opción en fila"
+      },
+      "radios": {
+        "label": "Radios",
+        "type": "textarea-split",
+        "value": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+		"radiosValues" :{
+			"label" : "Radios valor opciones",
+			"type" : "textarea-split",
+			"value" :[
+				"1",
+				"2",
+				"3",
+				"4"
+			] 
+		}
+    }
+  },
+  {
+    "title": "Multiple Checkboxes",
+    "fields": {
+      "name": {
+        "label": "Nombre grupo",
+        "type": "input",
+        "value": "casillas"
+      },
+      "label": {
+        "label": "Etiqueta de texto",
+        "type": "input",
+        "value": "Casillas verificación"
+      },
+      "checkboxes": {
+        "label": "Casillas / checkboxes",
+        "type": "textarea-split",
+        "value": [
+          "Primera opción",
+          "Segunda opción"
+        ]
+      },
+	  "checkboxesValues":{
+		"label" : "Valores casillas / checkboxes",
+		"type" : "textarea-split",
+		"value" : [
+			"1",
+			"2"
+		]		
+	  }
+    }
+  },
+  {
+    "title": "Multiple Checkboxes Inline",
+    "fields": {
+      "name": {
+        "label": "Nombre grupo",
+        "type": "input",
+        "value": "casillas en fila"
+      },
+      "label": {
+        "label": "Etiqueta de texto",
+        "type": "input",
+        "value": "Casillas verificación en fila"
+      },
+      "checkboxes": {
+        "label": "Casillas / checkboxes",
+        "type": "textarea-split",
+        "value": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+	  "checkboxesValues":{
+		"label" : "Valores casillas / checkboxes",
+		"type" : "textarea-split",
+		"value" : [
+			"1",
+			"2",
+			"3",
+			"4"
+		]		
+	  }
+    }
+  }
+]
